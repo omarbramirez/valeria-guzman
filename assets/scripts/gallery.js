@@ -74,7 +74,7 @@ container.addEventListener('click', function(e) {
 
 carrousel.addEventListener('click', function(e) {
   e.preventDefault;
-  if (e.target == img_fig || e.target == gridCurrentImg) {
+  if (e.target == img_fig || e.target == gridCurrentImg || e.target == carrousel) {
     carrousel.classList.remove("active");
     container.classList.remove("active");
   };
